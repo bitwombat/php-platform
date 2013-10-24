@@ -1,0 +1,25 @@
+{
+	"name":         "digitaledgeit/platform",
+	"type":         "library",
+	"description":  "Library for platform inspection",
+	"keywords":     ["stream"],
+	"homepage":     "http://www.digitaledgeit.com.au",
+	"license":      "CC-BY-NC-ND-3.0 - Use in a commercial product is permitted, but sale of the library is not permitted.",
+	"authors": [
+		{
+			"name":     "James Newell",
+			"email":    "james@digitaledgeit.com.au"
+		}
+	],
+	"require": {
+		"php": "~5.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~3.7"
+	},
+	"autoload": {
+		"psr-0": {
+			"deit\\platform\\": "src/"
+		}
+	}
+}
